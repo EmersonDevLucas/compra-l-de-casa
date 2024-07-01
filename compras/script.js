@@ -33,10 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.getElementById("comprafeita").onclick = function () {
   localStorage.removeItem("listaDeCompras");
 
-  items = [];
-  itemList.innerHTML = "";
-
   document.location.reload();
 
-  document.getElementById('checkcompra').style.display = 'flex'
+  document.getElementById('checkcompra').style.display = ('flex')
 };

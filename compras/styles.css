@@ -127,4 +127,22 @@
     background-color: #f9f9f9;
   }
 
+  main article {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+    transition: .3s;
+  }
+
+  main article img {
+    height: 100px;
+    width: 100px;
+  }
+
 }

@@ -1,10 +1,10 @@
 
 document.getElementById('novacompra').onclick = function novacompra(){
-    window.location.replace('http://127.0.0.1:5500/novacompra/')
+    window.location.replace('https://emersondevlucas.github.io/compra-l-de-casa/novacompra/')
 }
 
 document.getElementById('compra').onclick = function compra(){
-    window.location.replace('http://127.0.0.1:5500/compras/')
+    window.location.replace('https://emersondevlucas.github.io/compra-l-de-casa/compra/')
 }
 
 let dataAtual = new Date();

@@ -127,7 +127,7 @@
     background-color: #f9f9f9;
   }
 
-  main article {
+  #checkcompra {
     display: none;
     flex-direction: column;
     justify-content: space-around;
@@ -140,7 +140,7 @@
     transition: .3s;
   }
 
-  main article img {
+  #checkcompra img {
     height: 100px;
     width: 100px;
   }

@@ -58,5 +58,7 @@ document.getElementById('salvarlista').onclick = function() {
     });
 
     localStorage.setItem('listaDeCompras', JSON.stringify(items));
+
+    document.location.reload();
 };
 

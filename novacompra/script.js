@@ -59,6 +59,8 @@ document.getElementById('salvarlista').onclick = function() {
 
     localStorage.setItem('listaDeCompras', JSON.stringify(items));
 
+    document.getElementById('checkcompra').style.display = 'flex'
+
     document.location.reload();
 };
 

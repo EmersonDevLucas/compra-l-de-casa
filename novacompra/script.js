@@ -2,7 +2,7 @@ document.getElementById("novoitembutton").onclick = function () {
   let novoitem = document.getElementById("novoitem");
 
   novoitem.style.display = "flex";
-  novoitem.style.position = "absolute";
+  novoitem.style.position = "absolute"; 
 
 };
 
@@ -47,5 +47,16 @@ document.getElementById('salvaritem').onclick = function() {
     } else {
         alert('Maria, preencha todos os campos.');
     }
+};
+
+document.getElementById('salvarlista').onclick = function() {
+    let items = [];
+    document.querySelectorAll('#item-list .item').forEach(function(item) {
+        let nome = item.querySelector('.recebenomeitem').textContent;
+        let quantidade = item.querySelector('.recebequantidade').textContent;
+        items.push({ nome: nome, quantidade: quantidade });
+    });
+
+    localStorage.setItem('listaDeCompras', JSON.stringify(items));
 };
 

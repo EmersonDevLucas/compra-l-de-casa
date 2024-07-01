@@ -27,10 +27,22 @@
   }
 
   header {
+    display: flex;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
     padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  header a {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: none;
+    text-decoration: none;
   }
 
   #novoitem {

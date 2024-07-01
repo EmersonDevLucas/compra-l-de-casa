@@ -4,7 +4,7 @@ document.getElementById('novacompra').onclick = function novacompra(){
 }
 
 document.getElementById('compra').onclick = function compra(){
-    window.location.replace('https://emersondevlucas.github.io/compra-l-de-casa/compra/')
+    window.location.replace('https://emersondevlucas.github.io/compra-l-de-casa/compras/')
 }
 
 let dataAtual = new Date();
